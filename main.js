@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h2 class="header-subtitle">WORK</h2>
                 <ol class="project-list">
                     <li><a class="header-link" href="malu-coffee.html">MALU COFFEE</a></li>
-                    <li><button class="cera-sine-cera">CERA SINE CERA</button></li>
+                    <li><a class="header-link" href="cera-sine-cera.html">CERA SINE CERA</a></li>
                     <li><button class="mob-app-brain-dump">BRAIN DUMP MOBILE APP</button></li>
                 </ol>
             </div>
@@ -39,4 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     document.body.insertAdjacentHTML('afterbegin', header);
+
+    // Add hamburger menu functionality
+    const burgerMenu = document.querySelector('.burger-menu');
+    const workPlayContainer = document.querySelector('.work-play-container');
+    const socialLinks = document.querySelector('.social-links');
+
+    burgerMenu.addEventListener('click', function() {
+        workPlayContainer.classList.toggle('show');
+        socialLinks.classList.toggle('show');
+    });
 });

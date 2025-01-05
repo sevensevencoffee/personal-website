@@ -213,29 +213,48 @@ img {
 
 .content-wrapper {
     display: flex;
-    gap: 2rem;
-    max-width: 1200px;
+    gap: 4rem;
+    max-width: 1800px;
+    width: 100%; /* Added to ensure some margin on larger screens */
     margin: 0 auto;
     padding: 2rem;
 }
 
 .image-column {
     flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-column {
     flex: 1;
+    min-width: 300px; /* Added minimum width for text */
 }
 
 .profile-image {
     width: 100%;
     height: auto;
     object-fit: cover;
+    max-width: 1000px; /* Added maximum width for images */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .content-wrapper {
         flex-direction: column;
+        width: 95%; /* Increased width on mobile */
+        padding: 1rem;
+    }
+
+    .image-column,
+    .text-column {
+        min-width: unset; /* Remove min-width on mobile */
+        width: 100%;
+    }
+
+    .profile-image {
+        max-width: 100%; /* Allow full width on mobile */
     }
 }
 
