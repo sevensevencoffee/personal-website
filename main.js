@@ -18,20 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 <ol class="project-list">
                     <li><a class="header-link" href="malu-coffee.html">MALU COFFEE</a></li>
                     <li><a class="header-link" href="cera-sine-cera.html">CERA SINE CERA</a></li>
-                    <li><button class="mob-app-brain-dump">BRAIN DUMP MOBILE APP</button></li>
+                    <li><a class="header-link" href="pixel-art-app.html">Pixel Art Mobile App</a></li>
                 </ol>
             </div>
             <div class="header-column work-column" style="margin-top: 18px;">
                 <ol class="project-list" start="4">
-                    <li><button class="proj-3">Proj 3</button></li>
-                    <li><button class="proj-4">Proj 4</button></li>
                 </ol>
             </div>
             <div class="header-column play-column">
                 <h2 class="header-subtitle">PLAY</h2>
                 <ul class="play-list">
-                    <li><button class="cameraroll">Cameraroll</button></li>
-                    <li><button class="sketchbook">Sketchbook</button></li>
+                    <li><a class="header-link" href="cameraroll.html">Cameraroll</a></li>
+                    <li><a class="header-link" href="sketchbook.html">Sketchbook</a></li>
                 </ul>
             </div>
         </div>
