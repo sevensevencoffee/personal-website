@@ -211,3 +211,31 @@ img {
     position: relative;
 }
 
+.content-wrapper {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.image-column {
+    flex: 1;
+}
+
+.text-column {
+    flex: 1;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
+
