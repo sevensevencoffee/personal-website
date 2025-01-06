@@ -277,3 +277,34 @@ img {
     margin: 0 auto !important;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 100%;
+        min-width: 100%;
+    }
+    
+    .gallery {
+        margin: 10px;
+    }
+}
