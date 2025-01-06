@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <nav class="social-links">
                 <ul>
                     <li><a href="mailto:jinma717@gmail.com">EMAIL</a></li>
-                    <li><a href="https://x.com/jinnnnnntonic" target="_blank" rel="noopener noreferrer">TWITTER</a></li>
+                    <li><a href="https://x.com/jingyima77" target="_blank" rel="noopener noreferrer">TWITTER</a></li>
                     <li><a href="https://www.linkedin.com/in/jingyi-jin-ma-79916b128/" target="_blank" rel="noopener noreferrer">LINKEDIN</a></li>
                 </ul>
             </nav>
